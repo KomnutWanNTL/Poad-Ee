@@ -217,7 +217,7 @@ export default function QuickLog({
               value={note}
               onChange={(e) => setNote(e.target.value)}
               placeholder="เช่น กินอะไรก่อนหน้า, อาการอื่นๆ..."
-              className="w-full rounded-xl border border-border px-4 py-3 text-body text-text placeholder:text-muted resize-none focus:outline-none focus:border-coral min-h-[80px] bg-white"
+              className="w-full rounded-xl border border-border px-4 py-3 text-body text-text placeholder:text-muted resize-none focus:outline-none focus:border-coral min-h-[80px] bg-card"
               rows={3}
             />
           </div>

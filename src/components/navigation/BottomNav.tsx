@@ -8,7 +8,7 @@ interface BottomNavProps {
 
 export default function BottomNav({ activeKey, onNavigate }: BottomNavProps) {
   return (
-    <nav className="bg-white border-t border-border flex items-center justify-around py-1" aria-label="เมนูหลัก">
+    <nav className="bg-card border-t border-border flex items-center justify-around py-1" aria-label="เมนูหลัก">
       {NAV_ITEMS.map((item) => {
         const isActive = activeKey === item.key
         return (

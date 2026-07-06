@@ -51,7 +51,7 @@ export default function ConfirmDialog({
         onClick={onCancel}
       />
       <div
-        className="relative bg-white rounded-2xl p-6 w-full max-w-sm shadow-xl"
+        className="relative bg-card rounded-2xl p-6 w-full max-w-sm shadow-xl"
         role="dialog"
         aria-modal="true"
         aria-label={title}

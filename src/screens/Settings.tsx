@@ -39,7 +39,7 @@ export default function Settings({
       <div className="text-h1 text-text py-4">ตั้งค่า</div>
 
       {/* Language */}
-      <div className="bg-white rounded-xl border border-border p-4 mb-4">
+      <div className="bg-card rounded-xl border border-border p-4 mb-4">
         <div className="text-h2 text-text mb-3">ภาษา</div>
         <div className="flex rounded-xl overflow-hidden border border-border" role="radiogroup" aria-label="เลือกภาษา">
           <button
@@ -49,7 +49,7 @@ export default function Settings({
             className={`flex-1 py-3 text-body font-medium transition-colors duration-150 min-h-[44px] ${
               settings.language === 'th'
                 ? 'bg-coral text-white'
-                : 'bg-white text-text hover:bg-surface'
+                : 'bg-card text-text hover:bg-surface'
             }`}
           >
             ไทย
@@ -61,7 +61,7 @@ export default function Settings({
             className={`flex-1 py-3 text-body font-medium transition-colors duration-150 min-h-[44px] border-l border-border ${
               settings.language === 'en'
                 ? 'bg-coral text-white'
-                : 'bg-white text-text hover:bg-surface'
+                : 'bg-card text-text hover:bg-surface'
             }`}
           >
             English
@@ -73,7 +73,7 @@ export default function Settings({
       </div>
 
       {/* Theme */}
-      <div className="bg-white rounded-xl border border-border p-4 mb-4">
+      <div className="bg-card rounded-xl border border-border p-4 mb-4">
         <div className="text-h2 text-text mb-3">ธีม</div>
         <div className="flex rounded-xl overflow-hidden border border-border" role="radiogroup" aria-label="เลือกธีม">
           <button
@@ -83,7 +83,7 @@ export default function Settings({
             className={`flex-1 py-3 text-body font-medium transition-colors duration-150 min-h-[44px] ${
               settings.theme === 'light'
                 ? 'bg-coral text-white'
-                : 'bg-white text-text hover:bg-surface'
+                : 'bg-card text-text hover:bg-surface'
             }`}
           >
             ☀️ สว่าง
@@ -95,7 +95,7 @@ export default function Settings({
             className={`flex-1 py-3 text-body font-medium transition-colors duration-150 min-h-[44px] border-l border-border ${
               settings.theme === 'dark'
                 ? 'bg-navy text-white'
-                : 'bg-white text-text hover:bg-surface'
+                : 'bg-card text-text hover:bg-surface'
             }`}
           >
             🌙 มืด
@@ -104,7 +104,7 @@ export default function Settings({
       </div>
 
       {/* About */}
-      <div className="bg-white rounded-xl border border-border p-4 mb-4">
+      <div className="bg-card rounded-xl border border-border p-4 mb-4">
         <div className="text-h2 text-text mb-2">เกี่ยวกับ</div>
         <div className="flex flex-col gap-1.5 text-small text-muted">
           <div className="flex justify-between">
@@ -123,7 +123,7 @@ export default function Settings({
       </div>
 
       {/* Danger Zone */}
-      <div className="bg-white rounded-xl border border-danger/20 p-4 mb-4">
+      <div className="bg-card rounded-xl border border-danger/20 p-4 mb-4">
         <div className="text-h2 text-danger mb-2">⚠️ ล้างข้อมูล</div>
         <div className="text-small text-muted mb-3">
           ลบบันทึกทั้งหมดอย่างถาวร — ไม่สามารถกู้คืนได้

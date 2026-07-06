@@ -27,7 +27,7 @@ export default function IosInstallPrompt({ visible, onDismiss }: IosInstallPromp
       onClick={onDismiss}
     >
       <div
-        className={`w-full max-w-md bg-white rounded-t-2xl px-5 pt-6 pb-8 transition-transform duration-300 ease-out ${
+        className={`w-full max-w-md bg-card rounded-t-2xl px-5 pt-6 pb-8 transition-transform duration-300 ease-out ${
           show ? 'translate-y-0' : 'translate-y-full'
         }`}
         onClick={(e) => e.stopPropagation()}

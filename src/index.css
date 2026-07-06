@@ -16,6 +16,7 @@
   /* Neutral Palette */
   --color-bg: #FFFBF8;
   --color-surface: #FFF4EE;
+  --color-card: #FFFFFF;
   --color-text: #1A1412;
   --color-muted: #69504D;
   --color-border: #CBADA5;
@@ -49,6 +50,7 @@
 [data-theme="dark"] {
   --color-bg: #1A1412;
   --color-surface: #2A2220;
+  --color-card: #322A28;
   --color-text: #F5F0EE;
   --color-muted: #B8A49F;
   --color-border: #3D3532;

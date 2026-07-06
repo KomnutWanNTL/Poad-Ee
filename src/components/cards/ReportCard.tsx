@@ -20,7 +20,7 @@ export default function ReportCard({ header, subtitle, children, rows }: ReportC
         <div className="text-h2">{header}</div>
         {subtitle && <div className="text-small text-white/80 mt-0.5">{subtitle}</div>}
       </div>
-      <div className="bg-white px-4 py-2">
+      <div className="bg-card px-4 py-2">
         {rows?.map((row, i) => (
           <div
             key={i}

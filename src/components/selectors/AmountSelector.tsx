@@ -20,7 +20,7 @@ export default function AmountSelector({ selectedAmount, onSelect }: AmountSelec
             className={`flex-1 py-3 text-body font-medium transition-colors duration-150 min-h-[44px] ${
               isSelected
                 ? 'bg-coral text-white'
-                : 'bg-white text-text hover:bg-surface'
+                : 'bg-card text-text hover:bg-surface'
             } ${i > 0 ? 'border-l border-border' : ''}`}
           >
             {opt.label}

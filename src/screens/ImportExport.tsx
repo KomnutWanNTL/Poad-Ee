@@ -270,7 +270,7 @@ export default function ImportExport({
         </ReportCard>
 
         {/* Export */}
-        <div className="bg-white rounded-xl border border-border p-4 flex flex-col gap-2">
+        <div className="bg-card rounded-xl border border-border p-4 flex flex-col gap-2">
           <div className="text-h2 text-text">📥 ส่งออกข้อมูล</div>
           <Button variant="navy" className="w-full" onClick={handleExportJson}>
             📥 ส่งออก JSON

@@ -172,7 +172,7 @@ export default function Dashboard({
         <h2 className="text-h2 text-text mb-3">บันทึกล่าสุด</h2>
 
         {records.length === 0 ? (
-          <div className="text-center py-12 bg-white rounded-xl border border-border">
+          <div className="text-center py-12 bg-card rounded-xl border border-border">
             <div className="text-4xl mb-3" aria-hidden="true">📝</div>
             <div className="text-body text-muted mb-4">ยังไม่มีบันทึกวันนี้</div>
             <button

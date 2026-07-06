@@ -9,15 +9,15 @@ interface AlertCardProps {
 
 const variantStyles: Record<AlertVariant, { container: string; icon: string }> = {
   warning: {
-    container: 'bg-[#FFFBEB] border-l-4 border-amber text-amber-900',
+    container: 'bg-amber/10 border-l-4 border-amber text-amber',
     icon: '',
   },
   danger: {
-    container: 'bg-[#FFF5F5] border-l-4 border-danger text-red-800',
+    container: 'bg-danger/10 border-l-4 border-danger text-danger',
     icon: '',
   },
   critical: {
-    container: 'bg-[#FFF5F5] border-l-4 border-danger text-red-800',
+    container: 'bg-danger/10 border-l-4 border-danger text-danger',
     icon: '⚠️',
   },
 }

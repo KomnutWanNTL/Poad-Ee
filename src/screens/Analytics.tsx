@@ -86,7 +86,7 @@ export default function Analytics({ records, onNavigate }: AnalyticsProps) {
               className={`flex-1 py-2.5 text-body font-medium transition-colors duration-150 min-h-[44px] ${
                 isActive
                   ? 'bg-coral text-white'
-                  : 'bg-white text-text hover:bg-surface'
+                  : 'bg-card text-text hover:bg-surface'
               } ${p !== '1d' ? 'border-l border-border' : ''}`}
             >
               {PERIOD_LABELS[p]}{isActive ? '●' : ''}
@@ -208,7 +208,7 @@ export default function Analytics({ records, onNavigate }: AnalyticsProps) {
 
       {/* Recommendation */}
       {score < 60 && (
-        <div className="bg-white rounded-xl border border-border p-4 mb-4">
+        <div className="bg-card rounded-xl border border-border p-4 mb-4">
           <div className="text-h2 text-text mb-2">คำแนะนำ</div>
           <div className="text-body text-muted">
             {score < 40 && 'ควรปรึกษาแพทย์เพื่อตรวจสุขภาพระบบขับถ่ายอย่างละเอียด'}

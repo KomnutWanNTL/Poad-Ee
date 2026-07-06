@@ -18,16 +18,16 @@ export default function BristolCard({
   onClick,
 }: BristolCardProps) {
   let borderClass = 'border-border'
-  let bgClass = 'bg-white'
+  let bgClass = 'bg-card'
   let hoverClass = 'hover:border-[#C8A8A0]'
   const descId = `bristol-desc-${label}`
 
   if (isIdeal && isSelected) {
     borderClass = 'border-success'
-    bgClass = 'bg-[#E0F5EA]'
+    bgClass = 'bg-card'
   } else if (isIdeal) {
     borderClass = 'border-success/40'
-    bgClass = 'bg-white'
+    bgClass = 'bg-card'
     hoverClass = 'hover:border-success'
   } else if (isSelected) {
     borderClass = 'border-coral'

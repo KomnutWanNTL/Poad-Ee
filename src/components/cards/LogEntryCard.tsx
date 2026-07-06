@@ -16,7 +16,7 @@ export default function LogEntryCard({
   onDelete,
 }: LogEntryCardProps) {
   return (
-    <div className="flex items-center gap-3 bg-white rounded-xl p-3 border border-border touch-pan-y">
+    <div className="flex items-center gap-3 bg-card rounded-xl p-3 border border-border touch-pan-y">
       <div
         className="w-10 h-10 rounded-full flex items-center justify-center shrink-0"
         style={{ backgroundColor: bristolColor + '20' }}
