@@ -1,5 +1,5 @@
 import type { LogRecord } from '../types'
-import { getDateOnly, getDaysBack } from './dateUtils'
+import { getDateOnly, getDaysBack, formatDateISO } from './dateUtils'
 
 export function filterRecords(records: LogRecord[], days: number): LogRecord[] {
   const cutoff = getDaysBack(days)
@@ -17,7 +17,7 @@ export function getDailyFrequency(
     const d = new Date()
     d.setHours(0, 0, 0, 0)
     d.setDate(d.getDate() - i)
-    const key = d.toISOString().slice(0, 10)
+    const key = formatDateISO(d)
     const count = records.filter((r) => getDateOnly(r.recordedAt) === key).length
     result.push({
       date: key,
@@ -124,7 +124,7 @@ export function getCurrentStreak(records: LogRecord[]): number {
   for (let i = 0; i < 365; i++) {
     const d = new Date(today)
     d.setDate(d.getDate() - i)
-    const key = d.toISOString().slice(0, 10)
+    const key = formatDateISO(d)
     if (dates.has(key)) {
       streak++
     } else {
