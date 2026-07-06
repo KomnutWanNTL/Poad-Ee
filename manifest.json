@@ -1,0 +1,21 @@
+{
+  "name": "ปวดอึ",
+  "short_name": "ปวดอึ",
+  "description": "ลำไส้ดี ชีวิตดี — บันทึกการขับถ่ายง่ายๆ ใน 3 คลิก",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#C2503A",
+  "background_color": "#FFFBF8",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon-180.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    }
+  ]
+}
