@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://poad-ee.github.io/poad-ee",
+  "homepage": "https://KomnutWanNTL.github.io/Poad-Ee",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
