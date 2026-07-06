@@ -44,18 +44,16 @@
   --safe-area-right: env(safe-area-inset-right, 0px);
 }
 
-/* Dark mode preparation */
-@media (prefers-color-scheme: dark) {
-  :root.dark,
-  [data-theme="dark"] {
-    --color-bg: #1A1412;
-    --color-surface: #2A2220;
-    --color-text: #F5F0EE;
-    --color-muted: #B8A49F;
-    --color-border: #3D3532;
-    --color-coral-l: #3D1F1A;
-    --color-coral-p: #2A1A17;
-  }
+/* Dark mode — manual toggle */
+:root.dark,
+[data-theme="dark"] {
+  --color-bg: #1A1412;
+  --color-surface: #2A2220;
+  --color-text: #F5F0EE;
+  --color-muted: #B8A49F;
+  --color-border: #3D3532;
+  --color-coral-l: #3D1F1A;
+  --color-coral-p: #2A1A17;
 }
 
 /* Focus-visible styles */
